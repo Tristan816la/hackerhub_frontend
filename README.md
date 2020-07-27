@@ -1,3 +1,4 @@
+# Hackerhub Frontend
 This is the hackerhub front end.
 
 See the demo of the project: https://hackerhub-420f2.web.app/
@@ -14,3 +15,10 @@ firebase serve
 npm install
 npm start
 ```
+
+5. Or simply
+```
+cd build
+live-server
+```
+(You may need to install live-server using npm)
