@@ -4,7 +4,7 @@ This is the hackerhub front end.
 See the demo of the project: https://hackerhub-420f2.web.app/
 
 Run this project from local host:
-1. Clone to the backend: https://github.com/Tristan816la/hackerhub_backend
+1. Clone the backend: https://github.com/Tristan816la/hackerhub_backend
 2. Run
 ```
 firebase serve
