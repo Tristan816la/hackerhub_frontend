@@ -1,0 +1,51 @@
+.message {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    width: 300px;
+    background: #000;
+    border-radius: 40px;
+    padding: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+.message2 {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    width: 300px;
+    background: #dd84a1;
+    border-radius: 40px;
+    padding: 24px;
+    text-align: center;
+    color: #000;
+}
+
+.message-left:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-left: 24px solid #000;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #000;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    left: 32px;
+    bottom: -24px;
+}
+
+.message-right:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-right: 24px solid #dd84a1;
+    border-left: 12px solid transparent;
+    border-top: 12px solid #dd84a1;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    right: 32px;
+    bottom: -24px;
+}
