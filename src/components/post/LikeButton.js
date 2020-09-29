@@ -9,6 +9,7 @@ import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
 //Redux
 import { connect } from 'react-redux';
 import { likePost, unlikePost } from '../../redux/actions/dataAction';
+
 const LikeButton = (props) => {
 	const { authenticated } = props.user;
 	const postId = props.postId;

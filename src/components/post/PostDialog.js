@@ -53,6 +53,7 @@ const PostDialog = (props) => {
 	const [ open, setOpen ] = useState(false);
 	const [ oldPath, setOldPath ] = useState('');
 	const [ newPath, setNewPath ] = useState('');
+
 	const handleOpen = () => {
 		let oldPath = window.location.pathname;
 		const { userHandle, postId } = props;

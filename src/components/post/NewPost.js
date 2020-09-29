@@ -60,6 +60,7 @@ const NewPost = (props) => {
 		props.newPost({ body: body });
 	};
 	const { classes, UI: { loading } } = props;
+
 	return (
 		<Fragment>
 			<CustomButton onClick={handleOpen} tip="Create a new Post!">
